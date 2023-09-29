@@ -38,7 +38,7 @@ export default function Login() {
   
     if (validation()) {
       try {
-        const response = await fetch('http://localhost:5000/login', {
+        const response = await fetch('https://server-it5647uij-buddysuccess7-gmailcom.vercel.app//login', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
